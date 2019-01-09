@@ -15,6 +15,7 @@ function addToCart(item) {
   var objectPrice = {"itemPrice": price}
   var itemObject = {objectName, objectPrice}
   cart.push(itemObject)
+  return cart
 }
 
 function viewCart() {
