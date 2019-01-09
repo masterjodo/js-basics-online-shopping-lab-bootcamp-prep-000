@@ -31,13 +31,13 @@ function total() {
 }
 
 function removeFromCart(item) {
-  check each index
-  if item === cart[i].itemName
-    slice item out
-    return item
-  else {
-    return("That item is not in your cart.")
-  }
+  for (var i = 0; i <cart.length; i++) {
+    if (item === cart[i].itemName) {
+      slice item out
+      return item
+    } else {
+      return("That item is not in your cart.")
+    }
 }
 
 function placeOrder(cardNumber) {
