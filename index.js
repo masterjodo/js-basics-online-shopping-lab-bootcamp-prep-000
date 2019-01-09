@@ -37,7 +37,6 @@ function removeFromCart(item) {
     return item
   else {
     return("That item is not in your cart.")
-
   }
 }
 
