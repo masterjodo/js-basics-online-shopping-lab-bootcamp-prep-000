@@ -23,7 +23,7 @@ function addToCart(item) {
 
 
 function viewCart() {
-  if (cart.typeOf == "undefined") {
+  if (cart.typeOf === "undefined") {
     return("Your shopping cart is empty.");
   }
 }
