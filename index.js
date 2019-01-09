@@ -22,6 +22,7 @@ function viewCart() {
   // write your code here
 }
 
+
 function total() {
   var total = 0;
   for (let i = 0; i < cart.length; i++) {
