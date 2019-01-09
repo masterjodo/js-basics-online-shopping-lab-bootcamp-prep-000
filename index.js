@@ -15,7 +15,7 @@ function addToCart(item) {
   itemObject.itemName = item;
   itemObject.itemPrice = price;
   cart.push(itemObject);
-  return cart;
+  return('${item} has been added to your cart.');
 }
 
 function viewCart() {
