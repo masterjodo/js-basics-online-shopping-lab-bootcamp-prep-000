@@ -22,8 +22,11 @@ function viewCart() {
   // write your code here
 }
 
+var total = 0
 function total() {
-  // write your code here
+  for (let i = 0: i < cart.length: i++) {
+    cart[i].
+  }
 }
 
 function removeFromCart(item) {
