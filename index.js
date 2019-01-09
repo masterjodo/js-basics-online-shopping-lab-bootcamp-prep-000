@@ -51,5 +51,4 @@ function placeOrder(cardNumber) {
     cart = [];
     return("Your total cost is $" + newtotal + ", which will be charged to the card " + cardNumber + ".");
   }
-
 }
