@@ -24,7 +24,7 @@ function addToCart(item) {
 
 function viewCart() {
   if (typeof(cart) === "undefined") {
-    return("Your shopping cart is empty.");
+    return "Your shopping cart is empty.";
   }
 }
 
