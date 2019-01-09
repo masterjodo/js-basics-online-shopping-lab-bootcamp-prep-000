@@ -31,7 +31,7 @@ function total() {
 }
 
 function removeFromCart(item) {
-  // write your code here
+  check each index if item === cart[i].itemName
 }
 
 function placeOrder(cardNumber) {
