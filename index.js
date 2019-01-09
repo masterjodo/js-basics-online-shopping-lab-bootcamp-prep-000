@@ -1,5 +1,6 @@
 var cart = [];
 
+
 function getCart() {
  return cart;
 }
@@ -22,7 +23,9 @@ function addToCart(item) {
 
 
 function viewCart() {
-  // write your code here
+  if (cart.typeOf == "undefined") {
+    return("Your shopping cart is empty.");
+  }
 }
 
 
